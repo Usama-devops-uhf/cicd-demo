@@ -46,7 +46,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://cicd-demo-app \
+          aws s3 sync . s3://cicd-demo-appuhf \
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude "node_modules/*" \
